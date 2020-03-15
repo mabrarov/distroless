@@ -89,7 +89,10 @@ DISTRO_VERSIONS = {
     (
         "_debian10",
         "java11",
-        ["openjdk-11-jre-headless"],
+        [
+            "openjdk-11-jre-headless",
+            "tini",
+        ],
         "/usr/lib/jvm/java-11-openjdk-amd64/bin/java",
     ),
     (
@@ -98,6 +101,7 @@ DISTRO_VERSIONS = {
         [
             "openjdk-11-jre-headless",
             "openjdk-11-jdk-headless",
+            "tini",
         ],
         "/usr/lib/jvm/java-11-openjdk-amd64/bin/java",
     ),

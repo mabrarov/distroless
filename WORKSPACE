@@ -306,6 +306,7 @@ dpkg_list(
         "libfontconfig1",
         "openjdk-11-jre-headless",
         "openjdk-11-jdk-headless",
+        "tini",
 
         #python
         "dash",
